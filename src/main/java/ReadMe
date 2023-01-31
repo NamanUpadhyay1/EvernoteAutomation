@@ -1,0 +1,16 @@
+Tools used : Intellij, Browserstack(for online testing only)
+Language : Java
+Framework : POM~maven quickstart:archetype
+Browsers : edge, chrome and firefox
+
+POM project ~ run all the tests from TestSuit
+
+Driver will contain all 3 browsers - edge, chrome and firefox
+
+Data for browserstack will be retrieved from TestData.properties
+
+Utils will have all the reusable methods such as click on element or type on text area
+
+All the dependencies are stored in pom.xml
+
+You can find html extent report in Extentreport.html and then select the browser
